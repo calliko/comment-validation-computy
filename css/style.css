@@ -1,0 +1,10 @@
+label.error {
+    display: block;
+    background: #FFD2D2 none repeat scroll 0% 0%;
+    margin: 37px 0px 0 0;
+    position: absolute;
+    padding: 3px 10px;
+    font-size: 17px;
+    font-family: "MyriadPro-SemiboldIt";
+    color: #9F9E9E;
+}
