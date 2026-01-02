@@ -4,7 +4,7 @@ Donate link: https://sobe.ru/na/kompyuti_na_podderzhku_plagina_computy_for_plugi
 Tags: validation, form, comments
 Requires at least: 4.9
 Tested up to: 6.9
-Stable tag: 1.6.8
+Stable tag: 1.6.9
 Requires PHP: 7.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -28,7 +28,7 @@ plugins screen directly.
 
 == Changelog ==
 
-= 1.6.8 - 02.01.2026 =
+= 1.6.9 - 02.01.2026 =
 * Updated to current version
 
 = 1.6.7 - 12.09.2025 =
