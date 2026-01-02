@@ -4,7 +4,7 @@
  * Text Domain:   comment-validation-computy
  * Plugin URI: https://computy.ru/blog/plagin-validacii-formy-kommentariev-v-wordpress/
  * Description: Adds custom jQuery validation forms in the form of WordPress comments and bbPress comments.
- * Version: 1.6.7
+ * Version: 1.6.8
  * Author: computy.ru
  * Author URI: https://computy.ru
  * License: GPL
@@ -12,7 +12,7 @@
 if ( !defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 define( 'CV_COMPUTY_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
-define( 'CV_COMPUTY_VERSION', '1.6.7' );
+define( 'CV_COMPUTY_VERSION', '1.6.8' );
 
 if ( is_admin() || ( defined( 'WP_CLI' ) && WP_CLI ) ) {
     require_once( CV_COMPUTY_PLUGIN_DIR . 'class.cv-computy-admin.php' );
