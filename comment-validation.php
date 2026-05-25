@@ -4,7 +4,7 @@
  * Text Domain:   comment-validation-computy
  * Plugin URI: https://computy.ru/blog/plagin-validacii-formy-kommentariev-v-wordpress/
  * Description: Adds custom jQuery validation forms in the form of WordPress comments and bbPress comments.
- * Version: 1.6.9
+ * Version: 1.7.0
  * Author: computy.ru
  * Author URI: https://computy.ru
  * License: GPL
@@ -12,7 +12,7 @@
 if ( !defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 define( 'CV_COMPUTY_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
-define( 'CV_COMPUTY_VERSION', '1.6.9' );
+define( 'CV_COMPUTY_VERSION', '1.7.0' );
 
 if ( is_admin() || ( defined( 'WP_CLI' ) && WP_CLI ) ) {
     require_once( CV_COMPUTY_PLUGIN_DIR . 'class.cv-computy-admin.php' );
@@ -68,7 +68,8 @@ function computy_script() {
                         bbp_anonymous_email: "<?php echo __("Please enter a valid email address.", "comment-validation-computy")?>",
                         bbp_reply_content  : "<?php echo __("The message must be at least 20 characters.", "comment-validation-computy")?>",
                         comment            : "<?php echo __("The message must be at least 20 characters.", "comment-validation-computy")?>",
-                        url                : "<?php echo __("Please enter a valid URL.", "comment-validation-computy")?>"
+                        url                : "<?php echo __("Please enter a valid URL.", "comment-validation-computy")?>",
+                        privacy_consent    : "<?php echo __("Confirm Consent.", "comment-validation-computy")?>"
                     }
                 });
             }

@@ -1,10 +1,10 @@
 ﻿=== comment validation ===
 Contributors: calliko
-Donate link: https://sobe.ru/na/kompyuti_na_podderzhku_plagina_computy_for_plugin_support
+Donate link: https://yoomoney.ru/to/410011302808683
 Tags: validation, form, comments
 Requires at least: 4.9
-Tested up to: 6.9
-Stable tag: 1.6.9
+Tested up to: 7.0
+Stable tag: 1.7.0
 Requires PHP: 7.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -27,6 +27,9 @@ plugins screen directly.
 1. This is a highlighted code.
 
 == Changelog ==
+
+= 1.7.0 - 26.05.2026 =
+* Added the "Confirm Consent" field.
 
 = 1.6.9 - 02.01.2026 =
 * Updated to current version
